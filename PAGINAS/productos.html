@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMG/lightning-icon.png" type="image/png">
+    <link rel="stylesheet" href="/CSS/inicio4.css">
+    <title>PRODUCTOS - IEMSA S.A de C.V MIRANDA</title>
+</head>
+<body>
+
+    <header>
+        <img src="/IMG/iem transparente 2.png" alt="Logo">
+        <div class="contact-info">
+            <small>Llámenos por Teléfono</small>
+            <strong> 4741 180126</strong>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="inicio.html" target="iframe_contenido">INICIO</a></li>
+            <li><a href="Nosotros.html" target="iframe_contenido">SOBRE NOSOTROS</a></li>
+            <li><a href="servicios.html" target="iframe_contenido">SERVICIOS</a></li>
+            <li><a href="productos.html" target="iframe_contenido">PRODUCTOS</a></li>
+            <li><a href="contacto.html" target="iframe_contenido">CONTACTO</a></li>
+            <li><a href="UBICACIONES.html" target="iframe_contenido">UBICACIONES</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <!-- El id 'menu-productos' permite mostrar u ocultar este menú con JavaScript -->
+        <div id="menu-productos" class="menu" style="display: none;">
+            <ul>
+                <li><a href="Aislamiento Termicos.html" target="iframe_contenido">Aislamiento Termicos</a></li>
+                <li><a href="Paileria -- Soldadura.html" target="iframe_contenido">Paileria / Soldadura</a></li>
+                <li><a href="Instalaciones Electricas.html" target="iframe_contenido">Instalaciones Electricas</a></li>
+                <li><a href="Montaje Mecanico.html" target="iframe_contenido">Montaje Mecanico</a></li>
+            </ul>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>&copy; 2025 IEMSA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Verificamos si estamos en la página "productos.html"
+        if (window.location.pathname.includes('productos.html')) {
+            // Si estamos en productos.html, mostramos el menú
+            document.getElementById('menu-productos').style.display = 'block';
+        } else {
+            // Si no estamos en productos.html, ocultamos el menú
+            document.getElementById('menu-productos').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
